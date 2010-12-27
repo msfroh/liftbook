@@ -1074,6 +1074,10 @@ class Options(object):
   supfoot = True
   alignfoot = False
   footnotes = None
+  
+  # msfroh : Add option to disable navigation and anchors for epub output
+  nonavigation = False
+  noanchors = False
 
   # DCB : Add some stuff for syntax highlighting
   defaultbrush = None
@@ -1170,6 +1174,8 @@ class Options(object):
     Trace.error('    --unicode:              full Unicode output')
     Trace.error('    --iso885915:            output a document with ISO-8859-15 encoding')
     Trace.error('    --nofooter:             remove the footer "create by eLyXer"')
+    Trace.error('    --nonavigation          suppress navigation headers/footers')
+    Trace.error('    --noanchors             suppress generation of <a name...>')
     Trace.error('    --defaultbrush:         the default SyntaxHighlighter brush to use for listings')
     Trace.error('    --userheader:           use a custom header file inserted into the HTML output')
     Trace.error('    --userfootter:          use a custom footer file inserted into the HTML output')
@@ -2945,7 +2951,8 @@ class LinkOutput(ContainerOutput):
       type = link.type
     tag = 'a class="' + type + '"'
     if link.anchor:
-      tag += ' name="' + link.anchor + '"'
+      if not Options.noanchors:
+        tag += ' name="' + link.anchor + '"'
     if link.destination:
       link.computedestination()
     if link.url:
@@ -8783,18 +8790,28 @@ class SplitPartBasket(Basket):
     "Process the whole basket, create page baskets and flush all of them."
     self.basket.process()
     basket = self.firstbasket()
-    navigation = SplitPartNavigation()
+    if Options.nonavigation:
+      navigation = None
+    else:
+      navigation = SplitPartNavigation()
     for container in self.basket.contents:
       if self.mustsplit(container):
         filename = self.getfilename(container)
         Trace.debug('New page ' + filename)
         basket.addtoc()
-        navigation.writefooter(basket)
+        if navigation:
+          navigation.writefooter(basket)
+        else:
+          basket.write(LyXFooter())
         basket = self.addbasket(filename)
-        navigation.writeheader(basket, container)
+        if navigation:
+          navigation.writeheader(basket, container)
+        else:
+          basket.write(LyXHeader().process())
       basket.write(container)
       if self.afterheader(container):
-        navigation.writefirstheader(basket)
+        if navigation:
+          navigation.writefirstheader(basket)
     for basket in self.baskets:
       basket.process()
     for basket in self.baskets:

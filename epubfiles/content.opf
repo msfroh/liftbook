@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
+ 
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Exploring Lift</dc:title>
+    <dc:language>en</dc:language>
+    <dc:identifier id="BookId" opf:scheme="ISBN">1430224215</dc:identifier>
+    <dc:creator opf:role="aut">Derek Chen-Becker</dc:creator>
+    <dc:creator opf:role="aut">Marius Danciu</dc:creator>
+    <dc:creator opf:role="aut">Tyler Weir</dc:creator>
+  </metadata>
+ 
+  <manifest>
+    <item id="index-1" href="index-1.html" media-type="application/xhtml+xml" />
+    <item id="index-10" href="index-10.html" media-type="application/xhtml+xml" />
+    <item id="index-11" href="index-11.html" media-type="application/xhtml+xml" />
+    <item id="index-12" href="index-12.html" media-type="application/xhtml+xml" />
+    <item id="index-13" href="index-13.html" media-type="application/xhtml+xml" />
+    <item id="index-14" href="index-14.html" media-type="application/xhtml+xml" />
+    <item id="index-15" href="index-15.html" media-type="application/xhtml+xml" />
+    <item id="index-2" href="index-2.html" media-type="application/xhtml+xml" />
+    <item id="index-3" href="index-3.html" media-type="application/xhtml+xml" />
+    <item id="index-4" href="index-4.html" media-type="application/xhtml+xml" />
+    <item id="index-5" href="index-5.html" media-type="application/xhtml+xml" />
+    <item id="index-6" href="index-6.html" media-type="application/xhtml+xml" />
+    <item id="index-7" href="index-7.html" media-type="application/xhtml+xml" />
+    <item id="index-8" href="index-8.html" media-type="application/xhtml+xml" />
+    <item id="index-9" href="index-9.html" media-type="application/xhtml+xml" />
+    <item id="index-A" href="index-A.html" media-type="application/xhtml+xml" />
+    <item id="index-B" href="index-B.html" media-type="application/xhtml+xml" />
+    <item id="index-C" href="index-C.html" media-type="application/xhtml+xml" />
+    <item id="index-Chapter--1" href="index-Chapter--1.html" media-type="application/xhtml+xml" />
+    <item id="index-Chapter--2" href="index-Chapter--2.html" media-type="application/xhtml+xml" />
+    <item id="index-D" href="index-D.html" media-type="application/xhtml+xml" />
+    <item id="index-E" href="index-E.html" media-type="application/xhtml+xml" />
+    <item id="index-F" href="index-F.html" media-type="application/xhtml+xml" />
+    <item id="index-G" href="index-G.html" media-type="application/xhtml+xml" />
+    <item id="Comet" href="images/Comet.png" media-type="image/png" />
+    <item id="LiftArch" href="images/LiftArch.png" media-type="image/png" />
+    <item id="ajax" href="images/ajax.png" media-type="image/png" />
+    <item id="day-view" href="images/day-view.png" media-type="image/png" />
+    <item id="dirlayout" href="images/dirlayout.png" media-type="image/png" />
+    <item id="month-view" href="images/month-view.png" media-type="image/png" />
+    <item id="openid" href="images/openid.png" media-type="image/png" />
+    <item id="pocketchange" href="images/pocketchange.png" media-type="image/png" />
+    <item id="roles" href="images/roles.png" media-type="image/png" />
+    <item id="rssfeed" href="images/rssfeed.png" media-type="image/png" />
+    <item id="sparklines" href="images/sparklines.png" media-type="image/png" />
+    <item id="tablesorter" href="images/tablesorter.png" media-type="image/png" />
+    <item id="treeview" href="images/treeview.png" media-type="image/png" />
+    <item id="week-view" href="images/week-view.png" media-type="image/png" />
+    <item id="Ajax_Model" href="images/Ajax_Model.png" media-type="image/png" />
+    <item id="COMET_Model" href="images/COMET_Model.png" media-type="image/png" />
+    <item id="LiftArchDiagram" href="images/LiftArchDiagram.png" media-type="image/png" />
+    <item id="Traditional_Model" href="images/Traditional_Model.png" media-type="image/png" />
+    <item id="stylesheet" href="lyx.css" media-type="text/css"/>
+    <item id="ncx" href="book.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+ 
+  <spine toc="ncx">
+    <itemref idref="index-Chapter--1" />
+    <itemref idref="index-Chapter--2" />
+    <itemref idref="index-1" />
+    <itemref idref="index-2" />
+    <itemref idref="index-3" />
+    <itemref idref="index-4" />
+    <itemref idref="index-5" />
+    <itemref idref="index-6" />
+    <itemref idref="index-7" />
+    <itemref idref="index-8" />
+    <itemref idref="index-9" />
+    <itemref idref="index-10" />
+    <itemref idref="index-11" />
+    <itemref idref="index-12" />
+    <itemref idref="index-13" />
+    <itemref idref="index-14" />
+    <itemref idref="index-15" />
+    <itemref idref="index-A" />
+    <itemref idref="index-B" />
+    <itemref idref="index-C" />
+    <itemref idref="index-D" />
+    <itemref idref="index-E" />
+    <itemref idref="index-F" />
+    <itemref idref="index-G" />
+  </spine>
+</package>

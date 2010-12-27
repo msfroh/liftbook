@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+"http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"> 
+<ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+ 
+  <head>
+<!-- The following four metadata items are required for all NCX documents,
+including those conforming to the relaxed constraints of OPS 2.0 -->
+ 
+    <meta name="dtb:uid" content="123456789X"/> <!-- same as in .opf -->
+    <meta name="dtb:depth" content="1"/> <!-- 1 or higher -->
+    <meta name="dtb:totalPageCount" content="0"/> <!-- must be 0 -->
+    <meta name="dtb:maxPageNumber" content="0"/> <!-- must be 0 -->
+  </head>
+ 
+  <docTitle>
+    <text>Exploring Lift</text>
+  </docTitle>
+ 
+  <docAuthor>
+    <text>Chen-Becker, Derek and Danciu, Marius and Weir, Tyler</text>
+  </docAuthor>
+ 
+  <navMap>
+    <navPoint class="chapter" id="index-Chapter--1" playOrder="1"><navLabel><text>Dedication</text></navLabel><content src="index-Chapter--1.html" /></navPoint>
+    <navPoint class="chapter" id="index-Chapter--2" playOrder="2"><navLabel><text>Acknowledgements</text></navLabel><content src="index-Chapter--2.html" /></navPoint>
+    <navPoint class="chapter" id="index-1" playOrder="3"><navLabel><text>Welcome to Lift!</text></navLabel><content src="index-1.html" /></navPoint>
+    <navPoint class="chapter" id="index-2" playOrder="4"><navLabel><text>PocketChange</text></navLabel><content src="index-2.html" /></navPoint>
+    <navPoint class="chapter" id="index-3" playOrder="5"><navLabel><text>Lift Fundamentals</text></navLabel><content src="index-3.html" /></navPoint>
+    <navPoint class="chapter" id="index-4" playOrder="6"><navLabel><text>Templates in Lift</text></navLabel><content src="index-4.html" /></navPoint>
+    <navPoint class="chapter" id="index-5" playOrder="7"><navLabel><text>Snippets</text></navLabel><content src="index-5.html" /></navPoint>
+    <navPoint class="chapter" id="index-6" playOrder="8"><navLabel><text>Forms in Lift</text></navLabel><content src="index-6.html" /></navPoint>
+    <navPoint class="chapter" id="index-7" playOrder="9"><navLabel><text>SiteMap</text></navLabel><content src="index-7.html" /></navPoint>
+    <navPoint class="chapter" id="index-8" playOrder="10"><navLabel><text>The Mapper and Record Frameworks</text></navLabel><content src="index-8.html" /></navPoint>
+    <navPoint class="chapter" id="index-9" playOrder="11"><navLabel><text>Advanced Lift Architecture</text></navLabel><content src="index-9.html" /></navPoint>
+    <navPoint class="chapter" id="index-10" playOrder="12"><navLabel><text>Lift and JavaScript</text></navLabel><content src="index-10.html" /></navPoint>
+    <navPoint class="chapter" id="index-11" playOrder="13"><navLabel><text>AJAX and Comet in Lift</text></navLabel><content src="index-11.html" /></navPoint>
+    <navPoint class="chapter" id="index-12" playOrder="14"><navLabel><text>JPA Integration</text></navLabel><content src="index-12.html" /></navPoint>
+    <navPoint class="chapter" id="index-13" playOrder="15"><navLabel><text>Third Party Integrations</text></navLabel><content src="index-13.html" /></navPoint>
+    <navPoint class="chapter" id="index-14" playOrder="16"><navLabel><text>Lift Widgets</text></navLabel><content src="index-14.html" /></navPoint>
+    <navPoint class="chapter" id="index-15" playOrder="17"><navLabel><text>RESTful Web Services</text></navLabel><content src="index-15.html" /></navPoint>
+    <navPoint class="chapter" id="index-A" playOrder="18"><navLabel><text>Appendix A: A Brief Tour of Maven</text></navLabel><content src="index-A.html" /></navPoint>
+    <navPoint class="chapter" id="index-B" playOrder="19"><navLabel><text>Appendix B: Message Handling</text></navLabel><content src="index-B.html" /></navPoint>
+    <navPoint class="chapter" id="index-C" playOrder="20"><navLabel><text>Appendix C: Lift Helpers</text></navLabel><content src="index-C.html" /></navPoint>
+    <navPoint class="chapter" id="index-D" playOrder="21"><navLabel><text>Appendix D: Internationalization</text></navLabel><content src="index-D.html" /></navPoint>
+    <navPoint class="chapter" id="index-E" playOrder="22"><navLabel><text>Appendix E: Logging in Lift</text></navLabel><content src="index-E.html" /></navPoint>
+    <navPoint class="chapter" id="index-F" playOrder="23"><navLabel><text>Appendix F: Sending Email</text></navLabel><content src="index-F.html" /></navPoint>
+    <navPoint class="chapter" id="index-G" playOrder="24"><navLabel><text>Appendix G: JPA Code Listings</text></navLabel><content src="index-G.html" /></navPoint>
+  </navMap>
+ 
+</ncx>
+
