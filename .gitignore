@@ -22,3 +22,5 @@ master/
 *.ind
 *.tgz
 index
+*.epub
+epub/
